@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Today's Tasks</title>
+    <link rel="stylesheet" href="todostyle.css">
+    <link rel="script" href="script.js">
+</head>
+
+<body>
+
+<div class="container">
+<header>
+    <h1>📝 Today's Tasks</h1>
+    <p class="desc">Manage your daily work easily</p>
+</header>
+    <!-- Add Task -->
+    <div class="add-task">
+        <input type="text" id="taskInput" placeholder="Enter new task...">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <!-- Task List -->
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

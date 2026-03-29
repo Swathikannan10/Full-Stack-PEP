@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    height: 85vh;          
+    display: flex;         
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.add-task {
+    display: flex;
+    gap: 10px;
+}
+
+.add-task input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #5563d6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    flex: 1;              
+    overflow-y: auto;
+}
+
+li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-buttons button {
+    margin-left: 5px;
+    background: #999;
+}
+
+.task-buttons button:first-child {
+    background: green;
+}
+
+.task-buttons button:nth-child(2) {
+    background: orange;
+}
+
+.task-buttons button:last-child {
+    background: red;
+}
