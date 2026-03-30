@@ -19,7 +19,7 @@ This repository contains my frontend practice projects built using HTML, CSS, an
 
 ---
 
-#3. Todo List 
+# 3. Todo List 
 - Built using **HTML, CSS, and JavaScript**
 - Features:
   - Add tasks
